@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Motricidad Infantil | Academiadepsicologia</title>
+    <style>
+        /* Aquí van todos los estilos para que se vea bonito */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(to right, #007bff, #0056b3);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 1rem auto 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .intro {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .intro h2 {
+            color: #007bff;
+        }
+
+        .modulo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .modulo-card {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .modulo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .modulo-card h3 {
+            color: #0056b3;
+            margin-top: 0;
+        }
+
+        .modulo-card p {
+            color: #555;
+        }
+
+        .modulo-card button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .modulo-card button:hover {
+            background-color: #218838;
+        }
+
+        .contenido-modulo {
+            display: none; /* Esto oculta el contenido al principio */
+            margin-top: 2rem;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contenido-modulo ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contenido-modulo li {
+            background-color: #e9ecef;
+            border-left: 5px solid #007bff;
+            margin-bottom: 1rem;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+
+        .contenido-modulo a {
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        .contenido-modulo a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background-color: #343a40;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Curso Práctico de Motricidad Infantil</h1>
+        <p>Guía para padres: Actividades científicamente probadas para el desarrollo motor de tus hijos.</p>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>¡Hola, papá y mamá!</h2>
+            <p>Este curso ha sido diseñado para que, de forma sencilla y divertida, ayudes a tu hijo a desarrollar su motricidad fina y gruesa. Descubre actividades prácticas que fortalecerán su cuerpo y mente.</p>
+        </section>
+
+        <section class="modulo-grid">
+            <div class="modulo-card">
+                <h3>Módulo 1: Fundamentos</h3>
+                <p>Comprende qué es la motricidad fina y gruesa, y su importancia en el desarrollo de tu hijo.</p>
+                <button onclick="mostrarContenido('modulo1')">Ver lecciones</button>
+            </div>
+            <div class="modulo-card">
+                <h3>Módulo 2: Motricidad Gruesa</h3>
+                <p>Descubre actividades lúdicas para fortalecer los músculos grandes de tu bebé y niño pequeño.</p>
+                <button onclick="mostrarContenido('modulo2')">Ver lecciones</button>
+            </div>
+            <div class="modulo-card">
+                <h3>Módulo 3: Motricidad Fina</h3>
+                <p>Juegos para mejorar la coordinación mano-ojo y la destreza de los dedos de forma natural.</p>
+                <button onclick="mostrarContenido('modulo3')">Ver lecciones</button>
+            </div>
+        </section>
+
+        <div id="contenido-modulo-1" class="contenido-modulo">
+            <h3>Módulo 1: Fundamentos</h3>
+            <ul>
+                <li><a href="modulo1-leccion1.html">Lección 1: ¿Qué es la motricidad y por qué me importa?</a></li>
+                <li><a href="modulo1-leccion2.html">Lección 2: Diferencias entre motricidad fina y gruesa.</a></li>
+                <li><a href="modulo1-leccion3.html">Lección 3: Señales de alerta en el desarrollo motor.</a></li>
+            </ul>
+        </div>
+        <div id="contenido-modulo-2" class="contenido-modulo">
+            <h3>Módulo 2: Motricidad Gruesa (0-24 meses)</h3>
+            <ul>
+                <li><a href="#">Lección 1: "Tummy time" y juegos para gatear.</a></li>
+                <li><a href="#">Lección 2: De pie y primeros pasos.</a></li>
+                <li><a href="#">Lección 3: Saltar, correr y escalar de forma segura.</a></li>
+            </ul>
+        </div>
+        <div id="contenido-modulo-3" class="contenido-modulo">
+            <h3>Módulo 3: Motricidad Fina (0-24 meses)</h3>
+            <ul>
+                <li><a href="#">Lección 1: Primer agarre y manipulación de objetos.</a></li>
+                <li><a href="#">Lección 2: Juegos con plastilina, crayones y piezas pequeñas.</a></li>
+                <li><a href="#">Lección 3: Cómo desarrollar la pinza digital.</a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Academiadepsicologia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Aquí va el código JavaScript para la interactividad
+        function mostrarContenido(moduloId) {
+            // Oculta todos los contenidos de los módulos
+            const todosLosContenidos = document.querySelectorAll('.contenido-modulo');
+            todosLosContenidos.forEach(contenido => {
+                contenido.style.display = 'none';
+            });
+
+            // Muestra el contenido del módulo que el usuario seleccionó
+            const contenidoSeleccionado = document.getElementById(`contenido-modulo-${moduloId}`);
+            if (contenidoSeleccionado) {
+                contenidoSeleccionado.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
