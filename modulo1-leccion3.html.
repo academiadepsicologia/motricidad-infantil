@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 3: Señales de Alerta | Curso de Motricidad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .warning-box {
+            background-color: #fff3cd;
+            border: 1px solid #ffeeba;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .warning-box h3 {
+            color: #856404;
+            margin-top: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #6c757d;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            background-color: #5a6268;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #f8d7da;
+            border-left: 5px solid #dc3545;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lección 3: Señales de alerta en el desarrollo motor</h1>
+
+        <p>Como padres, es normal preocuparse por si el desarrollo de nuestros hijos va por buen camino. En esta lección, te daremos una guía simple de las señales de alerta para que sepas cuándo es apropiado consultar a un profesional.</p>
+
+        <h2>¿Cuándo preocuparse?</h2>
+        <p>Recuerda que cada niño se desarrolla a su propio ritmo. Sin embargo, si notas una o más de las siguientes señales, es recomendable hablar con un pediatra o terapeuta ocupacional.</p>
+
+        <ul>
+            <li>**A los 6-9 meses:** El bebé no se sienta con apoyo o no intenta gatear.</li>
+            <li>**A los 12 meses:** El bebé no se levanta o se para con apoyo.</li>
+            <li>**A los 18 meses:** No camina solo o tiene un caminar muy inestable.</li>
+            <li>**A los 2 años:** No puede subir o bajar escalones con ayuda, no puede lanzar una pelota.</li>
+            <li>**A los 3 años:** No puede dibujar una línea o un círculo, tiene dificultad para manipular juguetes pequeños.</li>
+            <li>**En cualquier edad:** El niño usa solo un lado de su cuerpo, tiene movimientos muy rígidos o flojos, o no muestra interés en el movimiento.</li>
+        </ul>
+
+        <div class="warning-box">
+            <h3>Importante</h3>
+            <p>Estas señales son solo una guía. La intervención temprana es clave, así que no dudes en buscar ayuda si tienes dudas. Un profesional puede ofrecerte herramientas y ejercicios específicos para ayudar a tu hijo.</p>
+        </div>
+
+        <a href="index.html" class="back-link">← Volver al curso</a>
+    </div>
+</body>
+</html>
