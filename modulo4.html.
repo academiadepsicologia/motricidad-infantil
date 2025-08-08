@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Módulo 4: Integración</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial; }
+        body { background: #f0f8ff; padding: 20px; }
+        .container { max-width: 800px; margin: 0 auto; background: white; padding: 30px; border-radius: 10px; }
+        h1 { color: #4a6fdc; margin-bottom: 20px; }
+        .back { margin-bottom: 20px; }
+        .content { margin: 20px 0; }
+        .content h2 { color: #4a6fdc; margin: 20px 0 10px; }
+        .content p, .content li { margin-bottom: 10px; color: #555; }
+        .activity { background: #f8f9fa; padding: 15px; margin: 15px 0; border-radius: 5px; border-left: 4px solid #4a6fdc; }
+        .activity h3 { color: #4a6fdc; margin-bottom: 10px; }
+        .benefit { background: #4a6fdc; color: white; padding: 3px 8px; border-radius: 12px; font-size: 12px; margin-right: 5px; }
+        .alert { background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 5px; margin: 15px 0; }
+        .alert h3 { color: #856404; margin-bottom: 10px; }
+        .btn { background: #4a6fdc; color: white; padding: 8px 15px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin: 5px; }
+        .certificate { background: #d4edda; border: 1px solid #c3e6cb; padding: 20px; border-radius: 5px; text-align: center; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back">
+            <a href="index.html" class="btn">← Volver al inicio</a>
+        </div>
+        
+        <h1>Módulo 4: Integración y Seguimiento</h1>
+        
+        <div class="content">
+            <h2>Integrando ambas motricidades</h2>
+            <p>La motricidad fina y gruesa no se desarrollan de forma aislada. Es importante crear actividades que integren ambas áreas:</p>
+            <ul>
+                <li>Los movimientos gruesos preparan el cuerpo para actividades finas</li>
+                <li>La coordinación general influye en la precisión manual</li>
+                <li>Las actividades integradas son más naturales y divertidas</li>
+                <li>Refuerzan conexiones neuronales más completas</li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h2>Rutinas lúdicas integradas</h2>
+            
+            <div class="activity">
+                <h3>1. Circuitos motores</h3>
+                <p>Crea un circuito en casa que combine:
+                    <ul>
+                        <li>Gateo o caminar sobre superficies diferentes</li>
+                        <li>Estaciones de actividades manuales (ensartar, construir)</li>
+                        <li>Lanzar objetos a un blanco</li>
+                        <li>Equilibrio en un pie mientras sostiene un objeto</li>
+                    </ul>
+                </p>
+                <div>
+                    <span class="benefit">Integración motriz</span>
+                    <span class="benefit">Planificación</span>
+                </div>
+            </div>
+            
+            <div class="activity">
+                <h3>2. Juegos cooperativos</h3>
+                <p>Organiza actividades que requieran:
+                    <ul>
+                        <li>Moverse en equipo (caminar juntos sosteniendo un objeto)</li>
+                        <li>Construir estructuras grandes con bloques</li>
+                        <li>Crear murales con pintura y materiales diversos</li>
+                        <li>Juegos de mesa que impliquen movimiento y manipulación</li>
+                    </ul>
+                </p>
+                <div>
+                    <span class="benefit">Socialización</span>
+                    <span class="benefit">Coordinación</span>
+                </div>
+            </div>
+            
+            <div class="activity">
+                <h3>3. Diario de actividades</h3>
+                <p>Crea un diario con tu hijo donde:
+                    <ul>
+                        <li>Dibujen o recorten las actividades realizadas</li>
+                        <li>Registren logros y dificultades</li>
+                        <li>Planeen nuevas actividades juntos</li>
+                        <li>Incluyan fotografías de los momentos especiales</li>
+                    </ul>
+                </p>
+                <div>
+                    <span class="benefit">Memoria</span>
+                    <span class="benefit">Autoevaluación</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <h2>Señales de alerta</h2>
+            <div class="alert">
+                <h3>⚠️ Consulta a un especialista si observas:</h3>
+                <ul>
+                    <li>Torpidez persistente en movimientos finos o gruesos</li>
+                    <li>Dificultad para realizar actividades propias de su edad</li>
+                    <li>Fatiga excesiva durante actividades motoras</li>
+                    <li>Falta de interés por juegos que impliquen movimiento</li>
+                    <li>Asimetrías marcadas en el movimiento corporal</li>
+                </ul>
+                <p><strong>Recuerda:</strong> Cada niño tiene su propio ritmo, pero es importante detectar dificultades a tiempo.</p>
+            </div>
+        </div>
+        
+        <div class="certificate">
+            <h3>🎉 ¡Felicidades!</h3>
+            <p>Has completado todos los módulos del curso. Ahora tienes las herramientas para estimular la motricidad de tu hijo de manera efectiva.</p>
+            <p><strong>Descarga tu certificado de participación:</strong></p>
+            <a href="#" class="btn">Descargar Certificado</a>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="modulo3.html" class="btn">← Anterior</a>
+            <a href="index.html" class="btn">Volver al inicio</a>
+        </div>
+    </div>
+</body>
+</html>
