@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lección 2: Motricidad Fina y Gruesa | Curso de Motricidad</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            text-align: center;
+        }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 0.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+        }
+        .activity-box {
+            background-color: #e9f5ff;
+            border: 1px solid #cce5ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .activity-box h3 {
+            color: #007bff;
+            margin-top: 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.75rem 1.5rem;
+            background-color: #6c757d;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            background-color: #5a6268;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lección 2: Las diferencias clave</h1>
+
+        <p>En la lección anterior, vimos qué es la motricidad. Ahora vamos a profundizar en las diferencias entre motricidad fina y gruesa para que sepas exactamente qué estimular en cada momento.</p>
+
+        <h2>Motricidad Gruesa: La fuerza y el equilibrio</h2>
+        <p>Se refiere a los movimientos que involucran a los músculos grandes del cuerpo. Es el primer tipo de motricidad que se desarrolla y es fundamental para que el niño pueda interactuar con el mundo.</p>
+        <ul>
+            <li>**Ejemplos:** gatear, sentarse sin apoyo, caminar, correr, saltar, trepar, lanzar y patear una pelota.</li>
+            <li>**Importancia:** Ayuda a desarrollar la fuerza muscular, el equilibrio, la coordinación general y el conocimiento de su propio cuerpo en el espacio.</li>
+        </ul>
+
+        <h2>Motricidad Fina: La precisión y la destreza</h2>
+        <p>Involucra los movimientos pequeños y precisos de las manos, muñecas y dedos. Se desarrolla después de la motricidad gruesa y requiere mayor coordinación y control muscular.</p>
+        <ul>
+            <li>**Ejemplos:** agarrar objetos con la pinza digital (pulgar e índice), abrocharse un botón, dibujar, escribir, usar tijeras, manipular cubiertos.</li>
+            <li>**Importancia:** Es clave para tareas de autonomía personal y para el futuro aprendizaje, como la escritura y la lectura.</li>
+        </ul>
+
+        <h2>Actividad para la casa</h2>
+        <div class="activity-box">
+            <h3>¡El juego de los roles!</h3>
+            <p>Convierte a tu hijo en un "constructor".</p>
+            <p><strong>Para la motricidad gruesa:</strong> Pídele que "cargue" bloques grandes (pueden ser almohadas o cajas ligeras) de un lado a otro de la habitación. Esto fortalecerá sus piernas y espalda.</p>
+            <p><strong>Para la motricidad fina:</strong> Dale un puñado de piezas pequeñas (legos, fichas) y pídele que las apile para construir una torre. Esto ejercitará la precisión de sus manos y dedos.</p>
+        </div>
+
+        <p>En la próxima lección, hablaremos sobre las señales de alerta y cuándo es momento de buscar ayuda.</p>
+
+        <a href="index.html" class="back-link">← Volver al curso</a>
+    </div>
+</body>
+</html>
