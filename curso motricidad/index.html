@@ -166,4 +166,56 @@
             <div class="modulo-card">
                 <h3>Módulo 3: Motricidad Fina</h3>
                 <p>Juegos para mejorar la coordinación mano-ojo y la destreza de los dedos de forma natural.</p>
-                <button onclick="mostrarContenido('modulo3')">Ver lecciones</
+                <button onclick="mostrarContenido('modulo3')">Ver lecciones</button>
+            </div>
+        </section>
+
+        <div id="contenido-modulo-1" class="contenido-modulo">
+            <h3>Módulo 1: Fundamentos</h3>
+            <ul>
+                <li><a href="modulo1-leccion1.html">Lección 1: ¿Qué es la motricidad y por qué me importa?</a></li>
+                <li><a href="modulo1-leccion2.html">Lección 2: Diferencias entre motricidad fina y gruesa.</a></li>
+                <li><a href="modulo1-leccion3.html">Lección 3: Señales de alerta en el desarrollo motor.</a></li>
+            </ul>
+        </div>
+        <div id="contenido-modulo-2" class="contenido-modulo">
+            <h3>Módulo 2: Motricidad Gruesa (0-24 meses)</h3>
+            <ul>
+                <li><a href="#">Lección 1: "Tummy time" y juegos para gatear.</a></li>
+                <li><a href="#">Lección 2: De pie y primeros pasos.</a></li>
+                <li><a href="#">Lección 3: Saltar, correr y escalar de forma segura.</a></li>
+            </ul>
+        </div>
+        <div id="contenido-modulo-3" class="contenido-modulo">
+            <h3>Módulo 3: Motricidad Fina (0-24 meses)</h3>
+            <ul>
+                <li><a href="#">Lección 1: Primer agarre y manipulación de objetos.</a></li>
+                <li><a href="#">Lección 2: Juegos con plastilina, crayones y piezas pequeñas.</a></li>
+                <li><a href="#">Lección 3: Cómo desarrollar la pinza digital.</a></li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Academiadepsicologia. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Aquí va el código JavaScript para la interactividad
+        function mostrarContenido(moduloId) {
+            // Oculta todos los contenidos de los módulos
+            const todosLosContenidos = document.querySelectorAll('.contenido-modulo');
+            todosLosContenidos.forEach(contenido => {
+                contenido.style.display = 'none';
+            });
+
+            // Muestra el contenido del módulo que el usuario seleccionó
+            const contenidoSeleccionado = document.getElementById(`contenido-modulo-${moduloId}`);
+            if (contenidoSeleccionado) {
+                contenidoSeleccionado.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
